@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICK-za</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+    <div class="container-main" id="home">
+           <div class="headerbar">
+              <h1>PICK-za</h1>
+           <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="headermenu" id="header-top">
+              <nav>  
+                 <a href="index.html">Home</a>   
+                 <a href="login.html">Log In</a>
+                 <a href="gallery.html" >Gallery</a>   
+                 <a href="contact.html">Contact</a> 
+                 
+              </nav>
+              </div>
+              <div class="bars">
+                <i class="fa fa-bars" style="font-size: 32px"></i>
+              </div>
+                
+            </div>
+
+     <section class="banner">
+            <h2>Welcome To PICK-za</h2>
+             <p>We are not only make pizza here,<br>We make yummy and tasty pizza!</p>
+    </section>
+
+    <section class="menu-container">
+        <div class="container mt-32">
+            <h2>OUR DAILY SPECIAL</h2>
+            <h4>Pick your pizza and customize it!</h4>
+            
+      
+            <div class="grid grid_4 mt-32">
+              <div class="card">
+                <div class="bg_overlay"></div>
+                <div class="content">
+                  <h3>Trending this week</h3>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="bg_overlay"></div>
+                <div class="content">
+                  <h3>Trending this week</h3>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="bg_overlay"></div>
+                <div class="content">
+                  <h3>Trending this week</h3>
+                </div>
+              </div>
+      
+              <div class="card">
+                <div class="bg_overlay"></div>
+                <div class="content">
+                  <h3>Trending this week</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify">
+                <a href="gallery.html">More choices here >>></a>
+              </div>
+          </div>
+
+    </section>
+
+    <section class="chef-container">
+        <h2>OUR TALENTED CHEFS</h2>
+        <div class="container grid grid_3 mt-32">
+            <div class="card">
+              <div class="card_header">
+               </div>
+              <div class="card_body">
+                <h4>Aus Zaidan</h4>
+                <p>"A pizza a day keeps sadness away."</p>
+              </div>
+            </div>
+          <div class="card">
+            <div class="card_header">
+            </div>
+            <div class="card_body">
+              <h4>Akinari Makishima</h4>
+              <p>"There's no better feeling in the world than a warm pizza box in your lap."</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_header">
+            </div>
+            <div class="card_body">
+              <h4>Milly Kent</h4>
+              <p>"Ideas are like pizza dough, made to be tossed around."</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="flex justify_chef">
+            <a href="contact.html">You like it? Order now!</a>
+          </div>
+        
+    </section>
+
+    
+     <footer>
+        <div class="fixed-bottom">
+            By using this site you agree to Pick-za's use of cookies to give you a personalised experience. Please read the cookie policy for more information or to delete/block them.
+            <button class="red_btn">Accept</button>
+            <p>©2021 PICK-za</p>
+            
+          </div>
+      
+        
+     </footer>
+    
+   <script>
+     const bars = document.querySelector(".bars");
+     const headerbar = document.querySelector(".headerbar");
+
+     bars.addEventListener("click", mobileMenu);
+
+     function mobileMenu() {
+       bars.classList.toggle("active");
+       headerbar.classList.toggle("active");
+     }
+
+
+   </script>
+</body>
+</html>
